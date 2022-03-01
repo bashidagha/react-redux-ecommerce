@@ -1,0 +1,48 @@
+*{
+  font-family: 'Roboto Slab', serif;
+}
+.card{
+  width: 18rem;
+  margin: 15px;
+  cursor: pointer;
+
+  .card-img-top{
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+  }
+  .card-text{
+    font-size: .7em;
+    h1{
+      font-size:1.7em;
+    }
+  }
+}
+
+.card:hover{
+  border-color: rgba(0,0,255,0.3);
+}
+
+.buy_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-link{
+  text-decoration: none;
+  color: black;
+}
+.card-link:hover{
+  color: black;
+}
+
+.product_detail{
+  align-items: center;
+  padding: 2rem 10rem 0 10rem;
+
+  img{
+    max-width: 300px;
+  }
+}
